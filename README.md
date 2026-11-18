@@ -27,4 +27,4 @@ A static construction and decorating website. Open `index.html` to preview it lo
 
 ## Multi-page edition
 Open index.html to preview. Upload the extracted contents to the existing repository root. Keep the directory structure and accept updates to existing site files. The new pages use local assets and explicit relative links.
-Nine AI-generated illustrations show types of work. The project portfolio uses the four original Civic project photographs. Coverage distances are approximate straight-line measurements. Confirm the proposed service list and radius before promoting the site.
+Nine AI-generated illustrations show types of work. The project portfolio uses the four original Civic project photographs.
