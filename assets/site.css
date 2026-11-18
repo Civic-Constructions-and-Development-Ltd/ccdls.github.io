@@ -34,7 +34,13 @@ p { max-width: 65ch; }
 .skip { position: absolute; z-index: 3; left: 16px; top: 12px; background: var(--paper); padding: 10px; transform: translateY(-150%); }
 .skip:focus { transform: none; }
 .topbar { background: var(--forest); color: var(--light-text); font-size: .76rem; letter-spacing: .055em; }
-.topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 36px; }
+.topbar-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px; min-height: 40px; }
+.quote-message { grid-column: 2; text-align: center; }
+.topbar-inner > a { grid-column: 3; justify-self: end; }
+.topbar .quote-message a { color: var(--light-copper); font-weight: 750; text-decoration: underline; }
+@media (max-width: 960px) {
+  .topbar .topbar-inner { display: flex; flex-direction: column; justify-content: center; gap: 2px; padding-block: 6px; }
+}
 .topbar a { text-decoration: none; white-space: nowrap; }
 .site-header { background: var(--cream); border-bottom: 1px solid var(--line); }
 .header-inner { min-height: 87px; display: flex; gap: 26px; justify-content: space-between; align-items: center; }
@@ -176,3 +182,8 @@ form textarea { resize: vertical; }
 .project-directory{padding-top:clamp(40px,6vw,80px)}
 .project-directory section>h2{font-size:clamp(1.65rem,3vw,2.3rem);margin-bottom:16px}
 .project-directory article h3{font-size:1.2rem;margin:4px 0 8px}
+.commercial-experience { margin: 20px 0 28px; padding: clamp(20px, 3vw, 38px); background: var(--sage); }
+.commercial-experience > h3 { font: normal clamp(1.5rem, 2.6vw, 2.25rem) Georgia, serif; }
+.experience-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 225px), 1fr)); gap: 24px; margin: 20px 0; }
+.experience-columns h4 { margin: 0 0 8px; line-height: 1.3; font-size: 1.1rem; }
+.experience-columns p { color: var(--muted); }
