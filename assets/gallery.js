@@ -14,9 +14,14 @@ function currentSlide() {
 
 function updateControls() {
   const index = currentSlide();
-  previous.disabled = index === 0;
-  next.disabled = index === slides.length - 1;
-  const position = (index + 1) + ' of ' + slides.length;
+  const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+  previous.disabled = track.scrollLeft <= 2;
+  next.disabled = atEnd;
+  const visible = Math.max(1, Math.round(track.clientWidth / slides[0].getBoundingClientRect().width));
+  controls.hidden = slides.length <= visible;
+  const first = atEnd ? slides.length - visible + 1 : index + 1;
+  const last = Math.min(first + visible - 1, slides.length);
+  const position = (first === last ? first : first + '–' + last) + ' of ' + slides.length;
   if (counter.textContent !== position) counter.textContent = position;
 }
 
@@ -26,7 +31,6 @@ function step(direction) {
   updateControls();
 }
 
-controls.hidden = false;
 previous.addEventListener('click', () => step(-1));
 next.addEventListener('click', () => step(1));
 track.addEventListener('scroll', updateControls, {passive:true});

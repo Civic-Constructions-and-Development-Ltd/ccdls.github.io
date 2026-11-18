@@ -69,10 +69,10 @@ form.addEventListener('submit', event => {
     get('deadline') && timingLabel.firstChild.textContent.trim() + ': ' + get('deadline'),
   ].filter(Boolean).join('\r\n') + '\r\n\r\nProject details\r\n' + get('details');
 
-  draft.value = 'To: topworkmen@gmail.com\r\nSubject: ' + subject + '\r\n\r\n' + body;
+  draft.value = 'To: info@civicconstructions.co.uk\r\nSubject: ' + subject + '\r\n\r\n' + body;
   fallback.hidden = false;
   status.textContent = 'If your email app stays closed, copy this draft into your email.';
-  window.location.href = 'mailto:topworkmen@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  window.location.href = 'mailto:info@civicconstructions.co.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 });
 
 document.querySelector('#copy-draft').addEventListener('click', async () => {

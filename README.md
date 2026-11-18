@@ -21,10 +21,19 @@ A static construction and decorating website. Open `index.html` to preview it lo
 
 ## Enquiries and content
 
-- The form prepares an email to `topworkmen@gmail.com` in the visitor’s email app and offers a copyable draft. The visitor sends the message and can attach tender drawings or photos in their email app. Phone and direct email links are available on the page.
+- The form prepares an email to `info@civicconstructions.co.uk` in the visitor’s email app and offers a copyable draft. The visitor sends the message and can attach tender drawings or photos in their email app. Phone and direct email links are available on the page.
 - The contact information and selected photographs were recovered from the live Civic WordPress site. Verify that the public contact details and portfolio descriptions are still current before launch.
 - The header SVG is a web redraw of the supplied horizontal logo. Replace `assets/civic-logo.svg` with the original vector artwork when available.
 
 ## Multi-page edition
 Open index.html to preview. Upload the extracted contents to the existing repository root. Keep the directory structure and accept updates to existing site files. The new pages use local assets and explicit relative links.
 The project portfolio uses the four original Civic project photographs.
+
+## Changes in v16
+- Homepage gallery now shows only the four completed Civic projects (Slough, London, Banbury, Maidenhead). The five blurry "project idea" photos were removed from the homepage: those files are small images that were enlarged to 1920px, so they cannot be made sharp. They still appear as small thumbnails on the projects page.
+- On desktop the gallery shows two photos side by side, so each photo is displayed at a size its file can fill sharply on high-resolution screens. The arrows and counter ("1–2 of 4") match what is on screen.
+- Homepage photos are served as WebP in two sizes (`srcset`): phones download the 960px version and desktops the full-size version. Pages load faster and images stay sharp.
+- Public email changed to info@civicconstructions.co.uk on every page and in the enquiry form.
+- Postcode labels fixed on the projects page (e.g. Farnborough GU14, Woking GU21, Bracknell RG12, which were cut short).
+- Added a canonical URL, a share image (`assets/og-image.jpg`) and a large share-card tag to every page, so links shared on WhatsApp and social media show a photo.
+- Removed the duplicate "Send a tender enquiry" link from the homepage services box (the "Invite us to tender" button directly below it remains).
