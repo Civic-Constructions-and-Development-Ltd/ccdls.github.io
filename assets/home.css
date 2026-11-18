@@ -47,3 +47,12 @@
 .coverage-layout figure img{width:100%;height:auto}
 .coverage-layout figcaption{font-size:.85rem;margin-top:8px}
 @media(max-width:760px){.story-grid,.coverage-layout,.assessment{grid-template-columns:1fr}.story-grid{gap:30px}}
+.gallery-track { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:16px; scrollbar-color:var(--forest) var(--sage); }
+.gallery-track:focus-visible { outline:2px solid var(--copper); outline-offset:4px; }
+.gallery-track .project { flex:0 0 100%; min-width:0; scroll-snap-align:start; }
+.gallery-track .project img { aspect-ratio:2.35; max-height:540px; }
+.gallery-bar,.gallery-controls { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.gallery-bar { margin-top:14px; }
+.gallery-controls button { width:44px; height:44px; background:var(--forest); color:white; border:0; border-radius:50%; font-size:1.25rem; }
+.gallery-controls button:disabled { opacity:.4; cursor:default; }
+@media(max-width:650px){.gallery-track .project img{aspect-ratio:1.35}.gallery-controls{gap:6px}}
