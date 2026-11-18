@@ -3,8 +3,77 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0;url=../#enquire">
-  <title>Civic Constructions &amp; Developments Ltd</title>
+  <title>Contact and tender enquiries | Civic Constructions &amp; Developments Ltd</title>
+  <meta name="description" content="Share your project brief with Civic in Windsor.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Civic | Construction, Refurbishment &amp; Decorating">
+  <meta property="og:description" content="Commercial and residential construction in Berkshire and West London. Tell us about your project or invite Civic to tender.">
+  <meta name="theme-color" content="#102744">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
 </head>
-<body><p><a href="../#enquire">Continue to Civic</a></p></body>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>Based in Windsor · Serving Berkshire &amp; West London</span>
+      <a href="tel:+442071013581">020 7101 3581</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href=".././index.html"><img src="../assets/civic-logo.svg" width="720" height="210" alt="Civic Constructions &amp; Developments Ltd"></a>
+      <button type="button" class="menu" aria-expanded="false" aria-controls="site-nav" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" aria-label="Main navigation"><a href="../services.html">Services</a><a href="../commercial-projects/index.html">Commercial</a><a href="../our-projects/index.html">Projects</a><a href="../areas.html">Areas</a><a class="button button-dark" href="../contact-us/index.html">Enquire ↗</a></nav>
+    </div>
+  </header>
+  <main id="main"><section class="wrap section contact-grid" id="enquire" aria-labelledby="enquire-title">
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h1 id="enquire-title">Tell us about your project.</h1>
+        <p>Ask for a free quote, discuss a site visit or invite us to price a tender.</p>
+        <address>
+          <a href="tel:+442071013581">020 7101 3581</a>
+          <a href="mailto:topworkmen@gmail.com">topworkmen@gmail.com</a>
+          <span>Mount Batter House, Fairacres Industrial Estate<br>Dedworth Road, Windsor, Berkshire, SL4 4LE</span>
+          <a class="text-link" href="https://maps.app.goo.gl/FCMs6wXdUuM83oS79">Get directions <span aria-hidden="true">↗</span></a>
+        </address>
+      </div>
+      <div class="enquiry-panel">
+        <form id="quote-form" hidden>
+          <div class="field-row">
+            <label>Your name<input name="name" autocomplete="name" maxlength="100" required></label>
+            <label>Company <span>(optional)</span><input name="company" autocomplete="organization" maxlength="120"></label>
+          </div>
+          <div class="field-row">
+            <label>Email<input name="email" type="email" autocomplete="email" maxlength="150" required></label>
+            <label>Phone <span>(optional)</span><input name="phone" type="tel" autocomplete="tel" maxlength="35"></label>
+          </div>
+          <div class="field-row">
+            <label>Project type<select name="type" id="project-type" required>
+              <option value="">Choose a service</option>
+              <option value="new-builds">New-build houses</option><option value="loft-conversions">Loft conversions</option><option value="extensions">House extensions</option><option value="garden-renovations">Garden renovations</option><option value="kitchen-renovations">Kitchen renovations</option><option value="hotel-renovations">Hotel renovations</option><option value="major-construction">Major construction</option><option value="commercial-projects">Commercial refurbishment</option><option value="decorating">Painting & decorating</option><option value="other">Other enquiry</option>
+            </select></label>
+            <label>Site postcode<input name="postcode" maxlength="12" required></label>
+          </div>
+          <label id="timing-label">Target start <span>(optional)</span><input name="deadline" maxlength="70" placeholder="e.g. March"></label>
+          <label>Project details<textarea name="details" id="project-details" rows="4" maxlength="1200" required placeholder="Tell us what you’d like done and any key timings."></textarea></label>
+          <button class="button button-dark" type="submit">Open email draft <span aria-hidden="true">↗</span></button>
+          <p class="form-note">The form opens your email app. You can add drawings or photos before sending.</p>
+          <div id="draft-fallback" hidden>
+            <label>Email draft<textarea id="draft-text" rows="5" readonly></textarea></label>
+            <button class="button button-outline" type="button" id="copy-draft">Copy email draft</button>
+            <p class="form-note" id="draft-status" role="status"></p>
+          </div>
+        </form>
+        <noscript><p><a class="button button-dark" href="mailto:topworkmen@gmail.com?subject=Civic%20project%20enquiry">Email your enquiry ↗</a></p><p>Include your project type, site postcode, scope and target dates.</p></noscript>
+      </div>
+    </section></main><footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><strong>Civic Constructions &amp; Developments Ltd</strong><p>Registered in England and Wales · Company no. 05498752</p></div>
+      <nav aria-label="Footer navigation"><a href="../services.html">Services</a><a href="../our-projects/index.html">Our work</a><a href="../contact-us/index.html">Contact</a></nav>
+    </div>
+  </footer>
+</body>
 </html>

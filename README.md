@@ -24,3 +24,7 @@ A static construction and decorating website. Open `index.html` to preview it lo
 - The form prepares an email to `topworkmen@gmail.com` in the visitor’s email app and offers a copyable draft. The visitor sends the message and can attach tender drawings or photos in their email app. Phone and direct email links are available on the page.
 - The contact information and selected photographs were recovered from the live Civic WordPress site. Verify that the public contact details and portfolio descriptions are still current before launch.
 - The header SVG is a web redraw of the supplied horizontal logo. Replace `assets/civic-logo.svg` with the original vector artwork when available.
+
+## Multi-page edition
+Open index.html to preview. Upload the extracted contents to the existing repository root. Keep the directory structure and accept updates to existing site files. The new pages use local assets and explicit relative links.
+Nine AI-generated illustrations show types of work. The project portfolio uses the four original Civic project photographs. Coverage distances are approximate straight-line measurements. Confirm the proposed service list and radius before promoting the site.

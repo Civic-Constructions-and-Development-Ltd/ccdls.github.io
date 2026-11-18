@@ -33,7 +33,7 @@ const draft = document.querySelector('#draft-text');
 const status = document.querySelector('#draft-status');
 
 function updateBrief() {
-  const commercial = projectType.value === 'commercial';
+  const commercial = ['hotel-renovations', 'major-construction', 'commercial-projects'].includes(projectType.value);
   timingLabel.firstChild.textContent = commercial ? 'Tender deadline ' : 'Target start ';
   deadline.placeholder = commercial ? 'e.g. 15 March' : 'e.g. March';
   details.placeholder = commercial
@@ -41,6 +41,8 @@ function updateBrief() {
     : 'Tell us what you’d like done and any key timings.';
 }
 
+const requested = new URLSearchParams(location.search).get('service');
+if ([...projectType.options].some(option => option.value === requested)) projectType.value = requested;
 form.hidden = false;
 updateBrief();
 projectType.addEventListener('change', updateBrief);
