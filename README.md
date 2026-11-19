@@ -41,3 +41,6 @@ The project portfolio uses the four original Civic project photographs.
 - Homepage gallery shows the four projects as equal-sized tiles: four in a row on desktop, two on tablets, and a swipeable row on phones. The arrows appear only when some tiles are off screen.
 - Office address updated to: Mount Batter House, Fairacres Industrial Estate, Dedworth Rd, Windsor SL4 4LE.
 - Phone number updated to 07985 563277 (+44 7985 563277) on every page.
+
+## Changes in v18
+- Fixed the "A home shaped around you" photos on the homepage, which were showing as tall, zoomed-in strips. They are now equal 3:2 tiles showing the whole photo, on desktop and mobile.
