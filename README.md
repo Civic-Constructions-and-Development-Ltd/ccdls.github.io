@@ -44,3 +44,6 @@ The project portfolio uses the four original Civic project photographs.
 
 ## Changes in v18
 - Fixed the "A home shaped around you" photos on the homepage, which were showing as tall, zoomed-in strips. They are now equal 3:2 tiles showing the whole photo, on desktop and mobile.
+
+## Changes in v19
+- On phones, the separate "Home" link next to the Menu button was removed. Home now sits inside the menu with the other pages, on every page.
