@@ -31,19 +31,9 @@ The project portfolio uses the four original Civic project photographs.
 
 ## Changes in v16
 - Homepage gallery now shows only the four completed Civic projects (Slough, London, Banbury, Maidenhead). The five blurry "project idea" photos were removed from the homepage: those files are small images that were enlarged to 1920px, so they cannot be made sharp. They still appear as small thumbnails on the projects page.
+- On desktop the gallery shows two photos side by side, so each photo is displayed at a size its file can fill sharply on high-resolution screens. The arrows and counter ("1–2 of 4") match what is on screen.
 - Homepage photos are served as WebP in two sizes (`srcset`): phones download the 960px version and desktops the full-size version. Pages load faster and images stay sharp.
 - Public email changed to info@civicconstructions.co.uk on every page and in the enquiry form.
 - Postcode labels fixed on the projects page (e.g. Farnborough GU14, Woking GU21, Bracknell RG12, which were cut short).
 - Added a canonical URL, a share image (`assets/og-image.jpg`) and a large share-card tag to every page, so links shared on WhatsApp and social media show a photo.
 - Removed the duplicate "Send a tender enquiry" link from the homepage services box (the "Invite us to tender" button directly below it remains).
-
-## Changes in v17
-- Homepage gallery shows the four projects as equal-sized tiles: four in a row on desktop, two on tablets, and a swipeable row on phones. The arrows appear only when some tiles are off screen.
-- Office address updated to: Mount Batter House, Fairacres Industrial Estate, Dedworth Rd, Windsor SL4 4LE.
-- Phone number updated to 07985 563277 (+44 7985 563277) on every page.
-
-## Changes in v18
-- Fixed the "A home shaped around you" photos on the homepage, which were showing as tall, zoomed-in strips. They are now equal 3:2 tiles showing the whole photo, on desktop and mobile.
-
-## Changes in v19
-- On phones, the separate "Home" link next to the Menu button was removed. Home now sits inside the menu with the other pages, on every page.
