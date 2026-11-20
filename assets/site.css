@@ -191,3 +191,7 @@ form textarea { resize: vertical; }
 /* v20 places of worship page */
 .worship-projects{margin:28px 0 18px}
 .hero-image img[src*="banbury"]{object-position:15% 50%}
+
+.worship-projects{grid-template-columns:repeat(3,minmax(0,1fr))}
+.worship-projects img{aspect-ratio:1/1;object-fit:cover}
+@media(max-width:760px){.worship-projects{grid-template-columns:1fr}}

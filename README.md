@@ -72,3 +72,9 @@ GitHub's "Upload files" page accepts at most 100 files at once and drops the res
 - New projects: two large homes in Northwood (HA6) and a resin-bound driveway in Richmond, London. Both are in the homepage gallery and on the projects page.
 - Northwood photo tidied: the person on the right was cropped out, and the child's chair, bag and ball were removed from the patio.
 - Site is 85 files, under GitHub's 100-file upload limit.
+
+## Changes in v23
+- Homepage top photos ("From new homes to major builds") restored to the original three.
+- Homepage gallery: the Herringbone cloakroom is back, cropped to the herringbone floor and brass trims with no WC in shot. It takes the place of the staircase tile, as staircases have their own homepage section.
+- New church renovation project in Oxford. It replaces the mosque photo in the gallery so no photo is repeated on the homepage. It is also on the projects page and the places of worship page, and the places of worship text now covers renovations.
+- Site is 93 files, under GitHub's 100-file upload limit.
