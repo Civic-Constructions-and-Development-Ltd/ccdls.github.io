@@ -75,3 +75,12 @@
 .worship-grid figcaption{color:var(--muted);font-size:.9rem;margin-top:8px}
 @media(max-width:760px){.worship-grid{grid-template-columns:1fr}}
 .worship-grid p + p{margin-top:12px}
+
+/* v22 complex staircases band */
+.stairs-band{padding-block:clamp(48px,7vw,88px)}
+.stairs-head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px);align-items:end;margin-bottom:28px}
+.stairs-head p{color:var(--muted);max-width:58ch}
+.stairs-head .button{margin-top:12px}
+.stairs-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.stairs-tiles img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+@media(max-width:760px){.stairs-head{grid-template-columns:1fr}.stairs-tiles{grid-template-columns:1fr 1fr}.stairs-tiles a:first-child{grid-column:1/-1}}

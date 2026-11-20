@@ -65,3 +65,10 @@ The project portfolio uses the four original Civic project photographs.
 
 ## Uploading to GitHub (important)
 GitHub's "Upload files" page accepts at most 100 files at once and drops the rest. Upload the contents of this folder (not the folder itself) to the repository root in one go, commit to `main`, wait a minute, then hard-refresh the site (Cmd+Shift+R).
+
+## Changes in v22
+- Removed the cloakroom (WC) photo from the homepage, projects page and decorating page.
+- New "Complex staircases" specialism: homepage section with three square staircase tiles, new service page (`staircases/`), services page card, homepage services link and an enquiry form option. The projects page has a new Staircases section.
+- New projects: two large homes in Northwood (HA6) and a resin-bound driveway in Richmond, London. Both are in the homepage gallery and on the projects page.
+- Northwood photo tidied: the person on the right was cropped out, and the child's chair, bag and ball were removed from the patio.
+- Site is 85 files, under GitHub's 100-file upload limit.
