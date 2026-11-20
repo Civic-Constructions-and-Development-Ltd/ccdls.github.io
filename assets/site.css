@@ -195,3 +195,19 @@ form textarea { resize: vertical; }
 .worship-projects{grid-template-columns:repeat(3,minmax(0,1fr))}
 .worship-projects img{aspect-ratio:1/1;object-fit:cover}
 @media(max-width:760px){.worship-projects{grid-template-columns:1fr}}
+
+/* v25: freephone call button */
+.call-cta{display:inline-flex !important;align-items:center;gap:10px;width:fit-content;padding:9px 18px 9px 12px;border-radius:999px;background:var(--light-copper);color:var(--forest) !important;text-decoration:none !important;font-weight:750;letter-spacing:0;line-height:1.1;box-shadow:0 2px 0 rgba(0,0,0,.12);transition:background .15s,transform .15s}
+.call-cta:hover{background:#f9c09b;transform:translateY(-1px)}
+.call-cta:focus-visible{outline:3px solid var(--forest);outline-offset:3px}
+.call-icon{flex:none;width:30px;height:30px;padding:6px;border-radius:50%;background:var(--forest);color:var(--light-copper)}
+.call-text{display:flex;flex-direction:column}
+.call-label{font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;font-weight:700;opacity:.8}
+.call-number{font-size:1.2rem;letter-spacing:.02em;white-space:nowrap}
+/* compact version in the top bar */
+.topbar .call-cta{padding:4px 12px 4px 5px;gap:7px}
+.topbar .call-icon{width:22px;height:22px;padding:4px}
+.topbar .call-label{display:none}
+.topbar .call-number{font-size:.9rem}
+.footer-contact .call-cta{margin:10px 0}
+.footer-contact .call-number{font-size:1.35rem}

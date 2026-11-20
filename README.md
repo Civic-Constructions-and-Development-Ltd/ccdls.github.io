@@ -81,3 +81,6 @@ GitHub's "Upload files" page accepts at most 100 files at once and drops the res
 
 ## Changes in v24
 - Homepage gallery: the Herringbone cloakroom tile is replaced by a staircase tile (suspended rod staircase), linking to the Complex staircases page.
+
+## Changes in v25
+- The 0800 274 0240 number is now a "Freephone" call button: a copper pill with a phone icon and larger digits. It appears in the top bar (compact version), the homepage "Talk through your project" section, the contact page and the footer on every page. Tapping it on a phone starts a call.
