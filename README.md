@@ -31,9 +31,37 @@ The project portfolio uses the four original Civic project photographs.
 
 ## Changes in v16
 - Homepage gallery now shows only the four completed Civic projects (Slough, London, Banbury, Maidenhead). The five blurry "project idea" photos were removed from the homepage: those files are small images that were enlarged to 1920px, so they cannot be made sharp. They still appear as small thumbnails on the projects page.
-- On desktop the gallery shows two photos side by side, so each photo is displayed at a size its file can fill sharply on high-resolution screens. The arrows and counter ("1–2 of 4") match what is on screen.
 - Homepage photos are served as WebP in two sizes (`srcset`): phones download the 960px version and desktops the full-size version. Pages load faster and images stay sharp.
 - Public email changed to info@civicconstructions.co.uk on every page and in the enquiry form.
 - Postcode labels fixed on the projects page (e.g. Farnborough GU14, Woking GU21, Bracknell RG12, which were cut short).
 - Added a canonical URL, a share image (`assets/og-image.jpg`) and a large share-card tag to every page, so links shared on WhatsApp and social media show a photo.
 - Removed the duplicate "Send a tender enquiry" link from the homepage services box (the "Invite us to tender" button directly below it remains).
+
+## Changes in v17
+- Homepage gallery shows the four projects as equal-sized tiles: four in a row on desktop, two on tablets, and a swipeable row on phones. The arrows appear only when some tiles are off screen.
+- Office address updated to: Mount Batter House, Fairacres Industrial Estate, Dedworth Rd, Windsor SL4 4LE.
+- Phone number updated on every page.
+
+## Changes in v18
+- Fixed the "A home shaped around you" photos on the homepage, which were showing as tall, zoomed-in strips. They are now equal 3:2 tiles showing the whole photo, on desktop and mobile.
+
+## Changes in v19
+- On phones, the separate "Home" link next to the Menu button was removed. Home now sits inside the menu with the other pages, on every page.
+
+## Changes in v20
+- Added 20 new photos in `assets/work/` (trimmed, sharpened, WebP, with a 640px version for small screens).
+- Homepage gallery: 8 equal tiles across homes, interiors, outdoors, places of worship and commercial work (two rows of four on desktop, swipeable on phones).
+- New "Places of worship" specialism: homepage section, new service page (`places-of-worship/`), services page card, enquiry form option, and a Places of worship section on the projects page covering mosques, churches and other places of prayer.
+- Projects page: new Interiors and Design ideas sections. Computer-generated visuals are labelled as design ideas, not completed projects.
+- Phone number changed to the free 0800 274 0240 on every page.
+
+## Changes in v21
+- All homepage project photos are equal square tiles (gallery and "A home shaped around you"). The square shape is set on each image as well as in the stylesheet, so a cached or older stylesheet cannot stretch them.
+- Homepage gallery: 12 square tiles of Civic work. Top banner photos and the "A home shaped around you" photos replaced with Civic's own photos.
+- Photos re-processed for the web: screenshot borders trimmed, levels and colour corrected, noise reduced on the small ones, sharpened, and saved as one WebP each (max 1280px).
+- Removed the brick house with the fountain (not a Civic job).
+- Service pages (new builds, loft conversions, extensions, garden, kitchen, decorating) and the services page now use Civic photos. The Painting & decorating page has a new "Decor upgrades and renovations" section.
+- Removed unused stock images so the whole site is 79 files, under GitHub's 100-file upload limit.
+
+## Uploading to GitHub (important)
+GitHub's "Upload files" page accepts at most 100 files at once and drops the rest. Upload the contents of this folder (not the folder itself) to the repository root in one go, commit to `main`, wait a minute, then hard-refresh the site (Cmd+Shift+R).

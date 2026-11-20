@@ -18,7 +18,7 @@ function updateControls() {
   previous.disabled = track.scrollLeft <= 2;
   next.disabled = atEnd;
   const visible = Math.max(1, Math.round(track.clientWidth / slides[0].getBoundingClientRect().width));
-  controls.hidden = slides.length <= visible;
+  controls.hidden = track.scrollWidth <= track.clientWidth + 2;
   const first = atEnd ? slides.length - visible + 1 : index + 1;
   const last = Math.min(first + visible - 1, slides.length);
   const position = (first === last ? first : first + '–' + last) + ' of ' + slides.length;
