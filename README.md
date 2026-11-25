@@ -84,3 +84,15 @@ GitHub's "Upload files" page accepts at most 100 files at once and drops the res
 
 ## Changes in v25
 - The 0800 274 0240 number is now a "Freephone" call button: a copper pill with a phone icon and larger digits. It appears in the top bar (compact version), the homepage "Talk through your project" section, the contact page and the footer on every page. Tapping it on a phone starts a call.
+
+## Changes in v26
+- Google Tag Manager (container GTM-MBCS86LN) installed on every page, using Google's official snippet in the <head> plus the <noscript> fallback after <body>.
+- Google Consent Mode v2: advertising and analytics cookies default to "denied" until the visitor accepts. A cookie banner (Accept / Reject) appears on the first visit and the choice is remembered. A "Cookie settings" link in every footer reopens it.
+- Phone call tracking: every tap on the 0800 number pushes a `phone_call_click` event to the dataLayer, with `phone_number` and `link_location` (topbar, page or footer).
+
+### Setting up the Google Ads phone-call conversion in Tag Manager
+1. In Google Ads, create a conversion action: Goals → Conversions → New → Website → "Calls from a website" / "Phone call lead". Copy its Conversion ID and Conversion label.
+2. In Tag Manager, create a Trigger: Custom Event, event name `phone_call_click`.
+3. Create a Tag: Google Ads Conversion Tracking, paste the ID and label, and use the trigger from step 2.
+4. Add a "Conversion Linker" tag firing on All Pages.
+5. Preview to test, then Submit / Publish the container.
