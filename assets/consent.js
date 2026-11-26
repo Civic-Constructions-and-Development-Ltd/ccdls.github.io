@@ -28,10 +28,18 @@
     document.querySelectorAll('[data-cookie-settings]').forEach(function (a) {
       a.addEventListener('click', function (e) { e.preventDefault(); show(); });
     });
-    // Phone call taps: GTM trigger on custom event "phone_call_click"
+    // Phone call taps: Google Ads "Click to call" conversion + GTM event "phone_call_click"
     document.addEventListener('click', function (e) {
       var a = e.target.closest && e.target.closest('a[href^="tel:"]');
-      if (a) window.dataLayer.push({ event: 'phone_call_click', phone_number: a.getAttribute('href').replace('tel:', ''), link_location: a.closest('footer') ? 'footer' : (a.closest('.topbar') ? 'topbar' : 'page') });
+      if (!a) return;
+      var href = a.getAttribute('href');
+      window.dataLayer.push({ event: 'phone_call_click', phone_number: href.replace('tel:', ''), link_location: a.closest('footer') ? 'footer' : (a.closest('.topbar') ? 'topbar' : 'page') });
+      if (typeof window.gtag !== 'function') return;          // let the link dial normally
+      e.preventDefault();
+      var dialled = false;
+      function dial(){ if (dialled) return; dialled = true; if (window.civicDial) window.civicDial(href); else window.location.href = href; }
+      gtag('event', 'conversion', { send_to: 'AW-18594508387/tYEwCJuMmsAdEOPcxqJF', value: 1.0, currency: 'GBP', event_callback: dial });
+      setTimeout(dial, 700);                                    // always dial, even if Google is blocked
     });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

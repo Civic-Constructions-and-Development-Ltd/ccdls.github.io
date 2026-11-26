@@ -96,3 +96,26 @@ GitHub's "Upload files" page accepts at most 100 files at once and drops the res
 3. Create a Tag: Google Ads Conversion Tracking, paste the ID and label, and use the trigger from step 2.
 4. Add a "Conversion Linker" tag firing on All Pages.
 5. Preview to test, then Submit / Publish the container.
+
+## Changes in v27
+- New **Customer reviews** section at the bottom of the homepage (nothing else on the page changed), plus a new **Reviews** page at `reviews/` with every review and a "Write a review" form.
+- The star average, the review count and the 5★–1★ breakdown are calculated automatically from the published reviews. Until the first review is added, the section shows an invitation to write one.
+- Names are always shown as first initial + surname (e.g. "S. Khan"). The form shows the reviewer how their name will appear before they send it.
+
+### How a review gets published
+1. A customer fills in the form at /reviews/#write. It opens their email app with the review addressed to info@civicconstructions.co.uk.
+2. Check the review against your project records.
+3. The email ends with a ready-made line, for example:
+   {"name":"S. Khan","town":"Slough","service":"House extension","rating":5,"text":"...","date":"2026-11-25"}
+4. Paste that line into `assets/reviews.json`, between the square brackets, with a comma between entries:
+   [
+     {"name":"S. Khan", ...},
+     {"name":"J. Smith", ...}
+   ]
+5. Upload `assets/reviews.json` to GitHub and purge the Cloudflare cache. The review and the updated average appear on the homepage and the Reviews page.
+
+## Changes in v28
+- Google Ads tag AW-18594508387 added to every page (after the Consent Mode defaults, before Tag Manager). It records the ad click ID (gclid) from ad visits so later calls can be credited to the ad. `url_passthrough` keeps the click ID working for visitors who reject cookies.
+- Every tap on the 0800 number sends the Google Ads **Click to call** conversion (send_to AW-18594508387/tYEwCJuMmsAdEOPcxqJF, value £1). The phone then dials as soon as Google confirms, or after 0.7 seconds at most, so calls still work when Google is blocked.
+- The `phone_call_click` event is still sent to Tag Manager.
+- **Don't** also create a Google Ads conversion tag for this call in Tag Manager, or every call will be counted twice.
