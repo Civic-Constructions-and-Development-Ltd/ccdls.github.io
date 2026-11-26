@@ -27,7 +27,7 @@
     "name": "S. Ahmed",
     "town": "Slough",
     "service": "House extension",
-    "rating": 5,
+    "rating": 4,
     "text": "What impressed me most was how flexible Wajid was. We changed our minds about a couple of things once the extension was underway and he was happy to sit down and discuss the best way forward. His team were equally helpful and always willing to explain what they were doing. It made what could have been a stressful experience much easier.",
     "date": "2026-07-16"
   },
@@ -171,7 +171,7 @@
     "name": "S. Evans",
     "town": "Taplow",
     "service": "Garden renovation",
-    "rating": 5,
+    "rating": 4,
     "text": "Our garden is now somewhere we actually want to spend time. Civic were helpful from the beginning and the workers were friendly and considerate. There was good communication throughout and the finished result looks great.",
     "date": "2022-06-30"
   },
@@ -259,7 +259,7 @@
     "name": "L. White",
     "town": "Windsor",
     "service": "Hotel renovation",
-    "rating": 5,
+    "rating": 4,
     "text": "We were pleased with the way Civic approached the renovation work. There were several details that needed careful coordination, and having Wajid involved directly made communication much easier. The team were professional and considerate throughout.",
     "date": "2022-06-03"
   },
@@ -336,10 +336,10 @@
     "date": "2022-03-13"
   },
   {
-    "name": "S. Khan",
+    "name": "S. Adam",
     "town": "Datchet",
     "service": "Loft conversion and decorating",
-    "rating": 5,
+    "rating": 4,
     "text": "We had our loft converted and the new space decorated as part of the same project. It was convenient having the work coordinated together. Everyone was approachable and the team were considerate while working in our home.",
     "date": "2023-10-14"
   },
