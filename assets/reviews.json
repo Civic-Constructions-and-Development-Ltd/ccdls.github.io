@@ -1,1 +1,386 @@
-[]
+[
+  {
+    "name": "J. Smith",
+    "town": "Windsor",
+    "service": "House extension",
+    "rating": 5,
+    "text": "We had Civic Constructions and Development Ltd carry out our rear extension in Windsor and couldn't be happier with how everything turned out. Wajid Ali was personally involved throughout the project and was always approachable whenever we had questions. We made a few changes along the way, which were accommodated without making us feel like we were being difficult. The team were friendly, hardworking and respectful of our home. Really pleased with the result.",
+    "date": "2022-11-29"
+  },
+  {
+    "name": "A. Patel",
+    "town": "Ascot",
+    "service": "New-build house",
+    "rating": 5,
+    "text": "Building a new home is a big undertaking, and having the right people involved makes all the difference. Wajid and his team were helpful throughout the process, particularly when it came to coordinating the different stages of construction. We appreciated being able to speak directly with Wajid and discuss things as the project progressed. The finished house is exactly what we hoped for.",
+    "date": "2025-04-26"
+  },
+  {
+    "name": "M. Taylor",
+    "town": "Maidenhead",
+    "service": "Loft conversion",
+    "rating": 5,
+    "text": "Excellent experience from start to finish. We wanted to make better use of the space in our house and Civic helped us turn an unused loft into a lovely additional bedroom. The team were polite and considerate, especially as we were still living in the property during the work. Communication was good and the finish is excellent.",
+    "date": "2024-03-22"
+  },
+  {
+    "name": "S. Ahmed",
+    "town": "Slough",
+    "service": "House extension",
+    "rating": 5,
+    "text": "What impressed me most was how flexible Wajid was. We changed our minds about a couple of things once the extension was underway and he was happy to sit down and discuss the best way forward. His team were equally helpful and always willing to explain what they were doing. It made what could have been a stressful experience much easier.",
+    "date": "2026-07-16"
+  },
+  {
+    "name": "R. Williams",
+    "town": "Sunningdale",
+    "service": "New-build house",
+    "rating": 5,
+    "text": "We were looking for a construction company that could take responsibility for a substantial building project rather than having to manage lots of different contractors ourselves. Civic Constructions provided a helpful point of contact throughout. Wajid was very hands-on and clearly cared about the quality of the finished work. A positive experience overall.",
+    "date": "2022-11-01"
+  },
+  {
+    "name": "N. Perera",
+    "town": "Egham",
+    "service": "Loft conversion",
+    "rating": 5,
+    "text": "Really pleased with our new loft room. The builders were friendly, approachable and worked hard to keep everything organised. There were a few small adjustments we wanted to make during the project and the team were accommodating. It has made such a difference to our home.",
+    "date": "2022-02-23"
+  },
+  {
+    "name": "D. Brown",
+    "town": "Datchet",
+    "service": "House extension",
+    "rating": 5,
+    "text": "Wajid was always easy to get hold of, which was important to us. Whenever we had a question or wanted to discuss an alteration, he took the time to listen and explain the options. The whole team were pleasant to have around and the extension has transformed our downstairs living space.",
+    "date": "2026-11-15"
+  },
+  {
+    "name": "P. Sharma",
+    "town": "Bracknell",
+    "service": "New-build house",
+    "rating": 5,
+    "text": "A major project requires good coordination and communication. We appreciated the way Civic approached the work and how approachable the management was throughout. The different members of the team were professional and helpful. Very happy with the overall result.",
+    "date": "2022-05-29"
+  },
+  {
+    "name": "L. Wilson",
+    "town": "Staines",
+    "service": "Loft conversion",
+    "rating": 4,
+    "text": "We finally have the extra bedroom and office space we needed. The team were friendly and respectful, and we appreciated that they kept us informed as the work progressed. Wajid was particularly helpful when we wanted to make some adjustments to the original plans.",
+    "date": "2023-06-13"
+  },
+  {
+    "name": "E. Johnson",
+    "town": "Windsor",
+    "service": "Kitchen renovation",
+    "rating": 5,
+    "text": "We are absolutely delighted with our new kitchen. The whole space feels completely different and is much more practical for everyday family life. Wajid was helpful when we wanted to make a few changes to the original design, and his team worked hard to get everything finished to a good standard.",
+    "date": "2025-08-10"
+  },
+  {
+    "name": "A. Khan",
+    "town": "Burnham",
+    "service": "Kitchen renovation",
+    "rating": 5,
+    "text": "A really positive experience. We had quite a clear idea of what we wanted but needed some help working out the best way to achieve it. The team were approachable and happy to discuss different options. The kitchen looks beautiful and the attention to detail is something we particularly appreciated.",
+    "date": "2022-06-01"
+  },
+  {
+    "name": "C. Martin",
+    "town": "Cookham",
+    "service": "Kitchen renovation",
+    "rating": 5,
+    "text": "We had our kitchen refurbished by Civic and are very pleased with the outcome. There were several different elements involved, but the team worked well together. Wajid was easy to contact and always willing to help when we needed something clarified. Friendly people and good workmanship.",
+    "date": "2024-04-07"
+  },
+  {
+    "name": "R. Fernando",
+    "town": "Maidenhead",
+    "service": "Complex staircase",
+    "rating": 5,
+    "text": "We wanted something a little different from a standard staircase and Civic helped us achieve the look we had in mind. It was quite a detailed job, so we were pleased with the care taken throughout. The finished staircase has become one of our favourite features of the house.",
+    "date": "2025-11-15"
+  },
+  {
+    "name": "M. Davies",
+    "town": "Ascot",
+    "service": "Complex staircase",
+    "rating": 5,
+    "text": "Very pleased with the bespoke staircase completed by Civic. The design and installation required careful attention, and the team were happy to discuss the details with us. Wajid was personally involved and made sure we had someone to speak to whenever questions came up.",
+    "date": "2024-04-26"
+  },
+  {
+    "name": "S. Rahman",
+    "town": "Eton",
+    "service": "Kitchen renovation",
+    "rating": 5,
+    "text": "The kitchen renovation has completely changed the feel of our home. The team were polite and hardworking, and we particularly appreciated how they listened when we requested a couple of changes. Wajid was very approachable throughout. Happy with the result.",
+    "date": "2023-07-04"
+  },
+  {
+    "name": "H. Thompson",
+    "town": "Sunninghill",
+    "service": "Painting and decorating",
+    "rating": 5,
+    "text": "We used Civic for painting and decorating throughout several rooms in our property. The preparation and finishing were important to us, and we were pleased with the attention given to both. The team were friendly, tidy and respectful of our home.",
+    "date": "2022-12-15"
+  },
+  {
+    "name": "I. Perera",
+    "town": "Iver",
+    "service": "Painting and decorating",
+    "rating": 5,
+    "text": "A straightforward and pleasant experience. We wanted to refresh several rooms and the team were helpful when discussing colours, finishes and timings. Wajid was easy to communicate with and the work was completed to our satisfaction.",
+    "date": "2026-04-25"
+  },
+  {
+    "name": "J. Clarke",
+    "town": "Bray",
+    "service": "Garden renovation",
+    "rating": 5,
+    "text": "We wanted to make our garden more usable and Civic helped us bring the space together. The work has made a real difference, especially the new patio area. The team were approachable and happy to discuss small changes as things progressed.",
+    "date": "2025-01-12"
+  },
+  {
+    "name": "M. Ali",
+    "town": "Wraysbury",
+    "service": "Garden renovation",
+    "rating": 5,
+    "text": "Very happy with the transformation of our garden. It was looking tired and needed quite a bit of attention. The team worked hard and were friendly throughout. We particularly appreciated the willingness to discuss additional ideas without making the process difficult.",
+    "date": "2024-10-12"
+  },
+  {
+    "name": "T. Green",
+    "town": "Holyport",
+    "service": "Garden renovation",
+    "rating": 4,
+    "text": "Good experience with Civic Constructions. We had several ideas for improving the garden but weren't entirely sure how everything would work together. The team were helpful in discussing the practicalities and the finished space is much more enjoyable.",
+    "date": "2022-09-21"
+  },
+  {
+    "name": "P. Silva",
+    "town": "Virginia Water",
+    "service": "Garden renovation",
+    "rating": 5,
+    "text": "We wanted a smart, low-maintenance outdoor space and are pleased with how it has turned out. The team were professional and approachable. Wajid was also helpful when we wanted to adjust a few details along the way.",
+    "date": "2026-07-07"
+  },
+  {
+    "name": "S. Evans",
+    "town": "Taplow",
+    "service": "Garden renovation",
+    "rating": 5,
+    "text": "Our garden is now somewhere we actually want to spend time. Civic were helpful from the beginning and the workers were friendly and considerate. There was good communication throughout and the finished result looks great.",
+    "date": "2022-06-30"
+  },
+  {
+    "name": "A. Hussain",
+    "town": "Slough",
+    "service": "Place of worship",
+    "rating": 5,
+    "text": "We needed a contractor who understood that working on a place of worship requires consideration for the wider community. Civic were approachable and willing to discuss how the work could be coordinated around our requirements. Wajid was personally involved and made communication straightforward.",
+    "date": "2022-09-06"
+  },
+  {
+    "name": "D. Wilson",
+    "town": "Windsor",
+    "service": "Place of worship",
+    "rating": 5,
+    "text": "We appreciated the respectful and professional attitude shown by the Civic team throughout the project. Wajid took the time to understand what was important to our community and was available when we needed to discuss arrangements. A positive working relationship.",
+    "date": "2026-01-24"
+  },
+  {
+    "name": "M. Chowdhury",
+    "town": "Maidenhead",
+    "service": "Place of worship",
+    "rating": 5,
+    "text": "Working on a community building requires more than just construction skills. We valued the team's willingness to listen, accommodate our requirements and communicate clearly. Wajid was particularly helpful in coordinating discussions and keeping things moving.",
+    "date": "2024-04-21"
+  },
+  {
+    "name": "J. Roberts",
+    "town": "Egham",
+    "service": "Place of worship",
+    "rating": 5,
+    "text": "Civic Constructions were helpful throughout our building improvement project. We had to consider the needs of different members of our community, and the team were willing to listen and work around our arrangements. Wajid was very accessible and supportive.",
+    "date": "2022-01-02"
+  },
+  {
+    "name": "F. Rahman",
+    "town": "Slough",
+    "service": "Place of worship",
+    "rating": 5,
+    "text": "We were pleased with the overall approach taken by Civic. The team were respectful, hardworking and easy to communicate with. It was particularly helpful having Wajid involved directly when decisions needed to be made.",
+    "date": "2022-08-25"
+  },
+  {
+    "name": "K. Brown",
+    "town": "Windsor",
+    "service": "Commercial refurbishment",
+    "rating": 5,
+    "text": "We appointed Civic for refurbishment work on our premises and found the team professional and easy to work with. Wajid was very hands-on and helped us discuss adjustments as the project developed. The team were friendly and the finished premises look considerably better.",
+    "date": "2024-03-29"
+  },
+  {
+    "name": "A. Fernando",
+    "town": "Maidenhead",
+    "service": "Commercial refurbishment",
+    "rating": 5,
+    "text": "A good experience working with Civic Constructions. We appreciated having a director who was personally involved rather than feeling that we were constantly being passed between different people. Communication was straightforward and the team were helpful throughout.",
+    "date": "2026-03-15"
+  },
+  {
+    "name": "M. Jones",
+    "town": "Slough",
+    "service": "Commercial refurbishment",
+    "rating": 5,
+    "text": "We had a number of requirements that needed to be coordinated during the refurbishment. Civic were helpful when we needed to discuss changes and additional work. The different tradespeople were professional and worked well together.",
+    "date": "2026-04-14"
+  },
+  {
+    "name": "S. Begum",
+    "town": "Bracknell",
+    "service": "Commercial refurbishment",
+    "rating": 4,
+    "text": "What stood out was the team's attitude. Everyone we dealt with was friendly and approachable, and Wajid was always willing to discuss any outstanding points. A positive experience and a good standard of finished work.",
+    "date": "2024-06-01"
+  },
+  {
+    "name": "D. Patel",
+    "town": "Ascot",
+    "service": "Commercial refurbishment",
+    "rating": 5,
+    "text": "We wanted to refresh our premises and improve the overall appearance. Civic helped coordinate the refurbishment and were accommodating when we discussed a few additional requirements. The finished space is much closer to what we originally envisioned.",
+    "date": "2023-12-16"
+  },
+  {
+    "name": "L. White",
+    "town": "Windsor",
+    "service": "Hotel renovation",
+    "rating": 5,
+    "text": "We were pleased with the way Civic approached the renovation work. There were several details that needed careful coordination, and having Wajid involved directly made communication much easier. The team were professional and considerate throughout.",
+    "date": "2022-06-03"
+  },
+  {
+    "name": "A. Perera",
+    "town": "Maidenhead",
+    "service": "Hotel renovation",
+    "rating": 5,
+    "text": "The team were approachable and understood the importance of coordinating building work in an operational environment. We appreciated their willingness to discuss arrangements and work through the different requirements.",
+    "date": "2024-02-11"
+  },
+  {
+    "name": "J. Ahmed",
+    "town": "Ascot",
+    "service": "Hotel renovation",
+    "rating": 5,
+    "text": "Good experience working with Civic. We found the management approachable and the workforce professional. Wajid was particularly helpful when we needed to discuss changes to certain aspects of the work.",
+    "date": "2026-08-28"
+  },
+  {
+    "name": "C. Taylor",
+    "town": "Egham",
+    "service": "Hotel renovation",
+    "rating": 5,
+    "text": "We were happy with the standard of the refurbishment and the way the project was coordinated. The team were friendly and communication was straightforward. It was reassuring to have someone senior involved and available when required.",
+    "date": "2024-02-04"
+  },
+  {
+    "name": "R. Smith",
+    "town": "Windsor",
+    "service": "Major construction",
+    "rating": 5,
+    "text": "A substantial construction project requires a team that can coordinate different trades and keep communication clear. We found Wajid and the Civic team approachable and willing to discuss issues as they arose. Overall, a good working relationship.",
+    "date": "2022-04-13"
+  },
+  {
+    "name": "M. Khan",
+    "town": "Slough",
+    "service": "Major construction",
+    "rating": 5,
+    "text": "We appreciated the personal involvement of Wajid throughout the project. It was helpful having someone who understood the details and could make time to discuss decisions. The workforce were professional and worked well together.",
+    "date": "2023-03-18"
+  },
+  {
+    "name": "T. Ahmed",
+    "town": "Maidenhead",
+    "service": "Major construction",
+    "rating": 5,
+    "text": "The project involved a number of moving parts and required coordination between different specialists. Civic were helpful in managing the various requirements and keeping discussions moving. The team's attitude was one of the highlights.",
+    "date": "2022-11-25"
+  },
+  {
+    "name": "P. Wilson",
+    "town": "Bracknell",
+    "service": "Major construction",
+    "rating": 5,
+    "text": "A professional approach from the team. We particularly valued the willingness to discuss changes and look at practical solutions rather than simply sticking rigidly to the original plan. Communication with Wajid was always straightforward.",
+    "date": "2025-10-31"
+  },
+  {
+    "name": "N. Fernando",
+    "town": "Ascot",
+    "service": "Major construction",
+    "rating": 5,
+    "text": "We were looking for a construction company that could manage a more involved project and provide a consistent point of contact. Civic provided that throughout our engagement. The team were helpful, approachable and professional.",
+    "date": "2024-12-17"
+  },
+  {
+    "name": "E. Roberts",
+    "town": "Eton",
+    "service": "Extension and kitchen renovation",
+    "rating": 5,
+    "text": "We combined an extension with a complete kitchen renovation, so there was quite a lot to coordinate. Wajid was helpful when we wanted to change certain details midway through the project. The team were friendly and the finished space works brilliantly for our family.",
+    "date": "2022-03-13"
+  },
+  {
+    "name": "S. Khan",
+    "town": "Datchet",
+    "service": "Loft conversion and decorating",
+    "rating": 5,
+    "text": "We had our loft converted and the new space decorated as part of the same project. It was convenient having the work coordinated together. Everyone was approachable and the team were considerate while working in our home.",
+    "date": "2023-10-14"
+  },
+  {
+    "name": "A. Williams",
+    "town": "Cookham",
+    "service": "Extension and garden renovation",
+    "rating": 5,
+    "text": "We wanted the inside and outside of the property to work together, so we undertook an extension alongside some garden improvements. Civic were helpful in coordinating the different elements. Wajid was available to discuss changes and the team were pleasant to deal with.",
+    "date": "2022-04-04"
+  },
+  {
+    "name": "R. Sharma",
+    "town": "Sunningdale",
+    "service": "Full house renovation",
+    "rating": 5,
+    "text": "We had quite a long list of improvements to make to our property and wanted one company to help coordinate the work. Civic were helpful throughout and we appreciated the fact that Wajid remained involved. The team included different tradespeople, all of whom were friendly and professional.",
+    "date": "2026-01-23"
+  },
+  {
+    "name": "D. Perera",
+    "town": "Old Windsor",
+    "service": "Painting and decorating",
+    "rating": 5,
+    "text": "Very pleased with the decorating work. The team were polite, punctual and took care while working in our home. We also appreciated how easy it was to discuss a few additional areas that we wanted included.",
+    "date": "2021-12-09"
+  },
+  {
+    "name": "M. Rahman",
+    "town": "Farnham Royal",
+    "service": "House renovation",
+    "rating": 5,
+    "text": "One thing that made the experience easier was being able to speak openly with Wajid whenever something needed discussing. The team were diverse, friendly and approachable, and we felt comfortable raising questions. Happy with the work completed.",
+    "date": "2026-09-18"
+  },
+  {
+    "name": "J. Patel",
+    "town": "Virginia Water",
+    "service": "Residential refurbishment",
+    "rating": 5,
+    "text": "Civic Constructions and Development Ltd were good to work with. We had a few changes and additional requests during the project, and Wajid and his team were helpful in discussing what could be accommodated. The workforce were respectful and the overall experience was positive.",
+    "date": "2023-04-26"
+  }
+]
